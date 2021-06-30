@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      font-family: monospace;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 20px 0 0 0;
+      font-size: 1.25em;
+      font-weight: normal;
+    }
+
+    .container {
+      max-width: 420px;
+      height: 300px;
+      margin: 0 auto;
+      border: 1px solid #ccc;
+    }
+
+    .flex-item-1 {
+      padding-top: 35px;
+      font-size: 1.5em;
+      margin: 5px;
+      text-align: center;
+      background: tomato;
+      flex: 1;
+    }
+
+    .stretch {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: stretch;
+    }
+
+    .flex-start {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+
+    .flex-end {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: flex-end;
+    }
+
+    .center {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+    }
+
+    .space-between {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-between;
+    }
+
+    .space-around {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-around;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>align-content: stretch</h1>
+  <section class="container stretch">
+    <div class="flex-item-1">1</div>
+    <div class="flex-item-1">TesteDoItem2</div>
+    <div class="flex-item-1">Teste 2</div>
+    <div class="flex-item-1">Teste 3</div>
+    <div class="flex-item-1">Teste 4</div>
+    <div class="flex-item-1">5</div>
+    <div class="flex-item-1">6</div>
+    <div class="flex-item-1">7</div>
+    <div class="flex-item-1">Teste 8</div>
+    <div class="flex-item-1">Teste 9</div>
+    <div class="flex-item-1">Teste 10</div>
+    <div class="flex-item-1">Teste 11</div>
+    <div class="flex-item-1">Teste 12 E Acabou</div>
+  </section>
+
+  <h1>align-content: flex-start</h1>
+  <section class="container flex-start">
+    <div class="flex-item-1">1</div>
+    <div class="flex-item-1">TesteDoItem2</div>
+    <div class="flex-item-1">Teste 2</div>
+    <div class="flex-item-1">Teste 3</div>
+    <div class="flex-item-1">Teste 4</div>
+    <div class="flex-item-1">5</div>
+    <div class="flex-item-1">6</div>
+    <div class="flex-item-1">7</div>
+    <div class="flex-item-1">Teste 8</div>
+    <div class="flex-item-1">Teste 9</div>
+    <div class="flex-item-1">Teste 10</div>
+    <div class="flex-item-1">Teste 11</div>
+    <div class="flex-item-1">Teste 12 E Acabou</div>
+  </section>
+
+  <h1>align-content: flex-end</h1>
+  <section class="container flex-end">
+    <div class="flex-item-1">1</div>
+    <div class="flex-item-1">TesteDoItem2</div>
+    <div class="flex-item-1">Teste 2</div>
+    <div class="flex-item-1">Teste 3</div>
+    <div class="flex-item-1">Teste 4</div>
+    <div class="flex-item-1">5</div>
+    <div class="flex-item-1">6</div>
+    <div class="flex-item-1">7</div>
+    <div class="flex-item-1">Teste 8</div>
+    <div class="flex-item-1">Teste 9</div>
+    <div class="flex-item-1">Teste 10</div>
+    <div class="flex-item-1">Teste 11</div>
+    <div class="flex-item-1">Teste 12 E Acabou</div>
+  </section>
+
+  <h1>align-content: center</h1>
+  <section class="container center">
+    <div class="flex-item-1">1</div>
+    <div class="flex-item-1">TesteDoItem2</div>
+    <div class="flex-item-1">Teste 2</div>
+    <div class="flex-item-1">Teste 3</div>
+    <div class="flex-item-1">Teste 4</div>
+    <div class="flex-item-1">5</div>
+    <div class="flex-item-1">6</div>
+    <div class="flex-item-1">7</div>
+    <div class="flex-item-1">Teste 8</div>
+    <div class="flex-item-1">Teste 9</div>
+    <div class="flex-item-1">Teste 10</div>
+    <div class="flex-item-1">Teste 11</div>
+    <div class="flex-item-1">Teste 12 E Acabou</div>
+  </section>
+
+  <h1>align-content: space-between</h1>
+  <section class="container space-between">
+    <div class="flex-item-1">1</div>
+    <div class="flex-item-1">TesteDoItem2</div>
+    <div class="flex-item-1">Teste 2</div>
+    <div class="flex-item-1">Teste 3</div>
+    <div class="flex-item-1">Teste 4</div>
+    <div class="flex-item-1">5</div>
+    <div class="flex-item-1">6</div>
+    <div class="flex-item-1">7</div>
+    <div class="flex-item-1">Teste 8</div>
+    <div class="flex-item-1">Teste 9</div>
+    <div class="flex-item-1">Teste 10</div>
+    <div class="flex-item-1">Teste 11</div>
+    <div class="flex-item-1">Teste 12 E Acabou</div>
+  </section>
+
+  <h1>align-content: space-around</h1>
+  <section class="container space-around">
+    <div class="flex-item-1">1</div>
+    <div class="flex-item-1">TesteDoItem2</div>
+    <div class="flex-item-1">Teste 2</div>
+    <div class="flex-item-1">Teste 3</div>
+    <div class="flex-item-1">Teste 4</div>
+    <div class="flex-item-1">5</div>
+    <div class="flex-item-1">6</div>
+    <div class="flex-item-1">7</div>
+    <div class="flex-item-1">Teste 8</div>
+    <div class="flex-item-1">Teste 9</div>
+    <div class="flex-item-1">Teste 10</div>
+    <div class="flex-item-1">Teste 11</div>
+    <div class="flex-item-1">Teste 12 E Acabou</div>
+  </section>
+
+</body>
+
+</html>
