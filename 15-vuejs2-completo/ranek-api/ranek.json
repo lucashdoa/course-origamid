@@ -1,0 +1,41 @@
+{
+  "usuario": {
+    "id": "lucashdoa@gmail.com",
+    "nome": "Lucas Henrique",
+    "senha": "123456",
+    "rua": "Rua Ali Perto",
+    "cep": "04546010",
+    "numero": "1332",
+    "estado": "MG",
+    "cidade": "Uberlândia"
+  },
+  "produto": [
+    {
+      "id": "notebook",
+      "nome": "Thinkpad",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Notebook usado.",
+      "fotos": null
+    },
+    {
+      "id": "smartphone",
+      "nome": "Samsung Galaxy",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Celular novo em folha.",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    }
+  ]
+}

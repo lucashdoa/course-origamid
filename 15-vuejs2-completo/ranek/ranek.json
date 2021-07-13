@@ -1,0 +1,12 @@
+{
+  "usuario": {
+    "id": "lucashdoa@gmail.com",
+    "nome": "Lucas Henrique",
+    "senha": "123456",
+    "rua": "Rua Ali Perto",
+    "cep": "04546010",
+    "numero": "1332",
+    "estado": "MG",
+    "cidade": "Uberlândia"
+  }
+}
