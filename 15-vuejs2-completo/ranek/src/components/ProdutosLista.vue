@@ -1,48 +1,67 @@
 <template>
   <section class="produtos-container">
-    <div v-if="produtos && produtos.length" class="produtos">
-      <div class="produto" v-for="produto in produtos" :key="produto.id">
-        <router-link to="/">
-          <img
-            v-if="produto.fotos"
-            :src="produto.fotos[0].src"
-            :alt="produto.fotos[0].titulo"
-          />
-          <h2 class="titulo">
-            {{ produto.nome }}
-          </h2>
-          <p class="preco">
-            {{ produto.preco }}
-          </p>
-          <p class="descricao">
-            {{ produto.descricao }}
-          </p>
-        </router-link>
+    <transition mode="out-in">
+      <div v-if="produtos && produtos.length" class="produtos" key="produtos">
+        <div class="produto" v-for="(produto, index) in produtos" :key="index">
+          <router-link :to="{ name: 'Produto', params: { id: produto.id } }">
+            <img
+              v-if="produto.fotos"
+              :src="produto.fotos[0].src"
+              :alt="produto.fotos[0].titulo"
+            />
+            <h2 class="titulo">
+              {{ produto.nome }}
+            </h2>
+            <p class="preco">
+              {{ produto.preco | numeroPreco }}
+            </p>
+            <p class="descricao">
+              {{ produto.descricao }}
+            </p>
+          </router-link>
+        </div>
+        <ProdutosPaginar
+          :produtosTotal="produtosTotal"
+          :produtosPorPagina="produtosPorPagina"
+        />
       </div>
-    </div>
-    <div v-else-if="produtos && produtos.length == 0">
-      <p class="sem-resultados">
-        Busca sem resultados. Tente buscar outro termo.
-      </p>
-    </div>
+      <div v-else-if="produtos && produtos.length == 0" key="sem-resultados">
+        <p class="sem-resultados">
+          Busca sem resultados. Tente buscar outro termo.
+        </p>
+      </div>
+
+      <PaginaCarregando v-else key="carregando" />
+    </transition>
   </section>
 </template>
 
 <script>
+import ProdutosPaginar from "@/components/ProdutosPaginar.vue";
 import { api } from "@/services.js";
 import { serialize } from "@/helpers.js";
 export default {
+  name: "ProdutosLista",
+  components: {
+    ProdutosPaginar,
+  },
   data() {
     return {
       produtos: null,
       produtosPorPagina: 9,
+      produtosTotal: 0,
     };
   },
   methods: {
     getProdutos() {
-      api.get(this.url).then((res) => {
-        this.produtos = res.data;
-      });
+      this.produtos = null;
+      setTimeout(() => {
+        api.get(this.url).then((res) => {
+          this.produtosTotal = Number(res.headers["x-total-count"]);
+          console.log(this.produtosTotal);
+          this.produtos = res.data;
+        });
+      }, 1500);
     },
   },
   created() {

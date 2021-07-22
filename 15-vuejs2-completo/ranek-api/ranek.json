@@ -1,14 +1,66 @@
 {
-  "usuario": {
-    "id": "lucashdoa@gmail.com",
-    "nome": "Lucas Henrique",
-    "senha": "123456",
-    "rua": "Rua Ali Perto",
-    "cep": "04546010",
-    "numero": "1332",
-    "estado": "MG",
-    "cidade": "Uberlândia"
-  },
+  "transacao": [
+    {
+      "comprador_id": "lucashdoa@gmail.com",
+      "vendedor_id": "lucashdoa@gmail.com",
+      "produto": {
+        "id": "notebook",
+        "nome": "Thinkpad",
+        "usuario_id": "lucashdoa@gmail.com",
+        "preco": "4999",
+        "vendido": "false",
+        "descricao": "Notebook usado.",
+        "fotos": null
+      },
+      "endereco": {
+        "cep": "38408420",
+        "rua": "Rua Tupis",
+        "numero": "123",
+        "bairro": "Saraiva",
+        "cidade": "Uberlândia",
+        "estado": "MG"
+      },
+      "id": 1
+    }
+  ],
+  "usuario": [
+    {
+      "id": "de@madfl.com",
+      "nome": "andradfsdf",
+      "email": "de@madfl.com",
+      "senha": "123",
+      "cep": "38408420",
+      "rua": "Rua Tupis",
+      "numero": "123",
+      "bairro": "Saraiva",
+      "cidade": "Uberlândia",
+      "estado": "MG"
+    },
+    {
+      "id": "miguel@origamid.com",
+      "nome": "Miguel",
+      "email": "miguel@origamid.com",
+      "senha": "123",
+      "cep": "38408420",
+      "rua": "Rua Tupis",
+      "numero": "22",
+      "bairro": "Carai",
+      "cidade": "Uberlândia",
+      "estado": "MG"
+    },
+    {
+      "id": "lucashdoa@gmail.com",
+      "nome": "Lucas Andrade",
+      "email": "lucashdoa@gmail.com",
+      "senha": "123",
+      "cep": "38408420",
+      "rua": "Rua Tupis",
+      "numero": "123",
+      "bairro": "Saraiva",
+      "cidade": "Uberlândia",
+      "estado": "MG"
+    }
+  ],
   "produto": [
     {
       "id": "notebook",
@@ -36,6 +88,551 @@
       "vendido": "false",
       "descricao": "Comprei um modelo mais novo",
       "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "notebook",
+      "nome": "Thinkpad",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Notebook usado.",
+      "fotos": null
+    },
+    {
+      "id": "smartphone",
+      "nome": "Samsung Galaxy",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Celular novo em folha.",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "notebook",
+      "nome": "Thinkpad",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Notebook usado.",
+      "fotos": null
+    },
+    {
+      "id": "smartphone",
+      "nome": "Samsung Galaxy",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Celular novo em folha.",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "notebook",
+      "nome": "Thinkpad",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Notebook usado.",
+      "fotos": null
+    },
+    {
+      "id": "smartphone",
+      "nome": "Samsung Galaxy",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Celular novo em folha.",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "notebook",
+      "nome": "Thinkpad",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Notebook usado.",
+      "fotos": null
+    },
+    {
+      "id": "smartphone",
+      "nome": "Samsung Galaxy",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Celular novo em folha.",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "id": "iphone",
+      "nome": "iPhone X",
+      "usuario_id": "lucashdoa@gmail.com",
+      "preco": "7999",
+      "vendido": "false",
+      "descricao": "Comprei um modelo mais novo",
+      "fotos": null
+    },
+    {
+      "nome": "Tablet",
+      "preco": "7850",
+      "descricao": "",
+      "fotos": null,
+      "usuario_id": "lucashdoa@gmail.com",
+      "id": "9MO3Ogi"
+    },
+    {
+      "nome": "Isso também",
+      "preco": " 1",
+      "descricao": "Nada de mais",
+      "fotos": null,
+      "usuario_id": "lucashdoa@gmail.com",
+      "id": "yl3mFPD"
+    },
+    {
+      "nome": "Tinkwinky",
+      "preco": "852",
+      "descricao": "Nada",
+      "fotos": null,
+      "usuario_id": "miguel@origamid.com",
+      "id": "Fh093gi"
+    },
+    {
+      "nome": "Po",
+      "preco": "85.23",
+      "descricao": "Nada",
+      "fotos": null,
+      "usuario_id": "miguel@origamid.com",
+      "id": "P_o5wQ-"
     }
   ]
 }
